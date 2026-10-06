@@ -1,0 +1,31 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated files
+health_data.csv
+data/
+datasets/
+models/
+checkpoints/
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Local reports
+*.pdf
+
+# Local settings and system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
